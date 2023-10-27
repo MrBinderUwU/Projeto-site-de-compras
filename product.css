@@ -1,0 +1,41 @@
+#produtosMenu {
+    color: black;
+    border: 0.5px solid;
+    height: 850px;
+    width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.produtosImagem {
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.produtosInf {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.comprarBotao {
+    background-color: aqua;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid;
+}
+
+.comprarBotao a{
+   text-decoration: none;
+   color: #fff;
+}
