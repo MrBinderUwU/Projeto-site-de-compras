@@ -4,13 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="productSelection.js"></script>
     <title>Produto</title>
 </head>
 <body>
-    
-<div id = "menu">
-    <h1>TESTE</h1>
+    <div id= "header">
+        <h1>Diva Room</h1>
+        <div class="loginBotao"><a href="product_pg.html"><button>Login</button></a></div>
+        
+        <p>Bem vindo a nossa loja de Merchs!</p>
+    </div>
+
+<div id = "produtosMenu">
+    <div class="produtosImagem">
+        <img src="testep.jpg" height="400" width="400">
+    </div>
+    <div class="produtosInf">
+        <h3>Hatsune Miku: Project Diva Megamix</h3>
+
+        <select id="game" onchange="mostrarMensagem()">
+            <option value="">Opções</option>
+            <option value="Nintendo Switch">Nintendo Switch</option>
+            <option value="PC (MegaMix+ Version)">PC (MegaMix+ Version)</option>
+        </select>
+        <h1 id = "mensagem"></h1>
+
+        <div class="comprarBotao"><a href="thx.html">COMPRAR</a></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse qui natus iure nesciunt blanditiis quas provident quisquam sint, officia delectus perspiciatis consectetur totam. Temporibus provident reprehenderit, velit hic ducimus et?</p>
+        
+    </div>
 </div>
 
+<footer>
+    <p style="text-align: center;">&copy;2023</p>
+<div class="footer">
+    <p><a href="product_pg.html">Sobre</a></p>  <p><a href="product_pg.html">Contato</a></p>  <p><a href="product_pg.html">Ajuda</a></p>
+</div>
+</footer>
 </body>
 </html>
