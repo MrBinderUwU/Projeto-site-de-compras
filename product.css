@@ -26,6 +26,11 @@
     margin-top: 10px;
 }
 
+.produtosInf2 {
+    margin-left: 23px;
+    margin-top: 30px;
+}
+
 .comprarBotao {
     background-color: aqua;
     width: fit-content;
@@ -33,9 +38,14 @@
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     border: 2px solid;
+    margin-bottom: 50px;
 }
 
 .comprarBotao a{
    text-decoration: none;
    color: #fff;
+}
+
+.avaliacao {
+    margin-top: 30px;
 }
