@@ -7,4 +7,3 @@ document.getElementById('paymentForm').addEventListener('submit', function(e) {
         window.location.href = "thx.html";
     }
 });
-
