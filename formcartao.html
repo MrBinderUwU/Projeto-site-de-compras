@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="cartaocss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <script src="cartaojs.js"></script>
+    <title>Comprar</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Loja 39</h1>
+        <button class="loginBotao"><a href="login.html" style="text-decoration: none; color: white;">Login</a></button>
+    </div>
+    <ul id="menu">
+        <li><a href="home_pg.html">Início</a></li>
+        <li><a href="product_selectionAll.html">Produtos</a></li>
+    </ul>
+<main>
+    </ul>
+    <div class="buy-container"> 
+        <form id="paymentForm">
+        <label for="cardNumber">Número do cartão:</label><br>
+        <input type="number" id="cardNumber" name="cardNumber" required><br>
+        <label for="expiryDate">Data de validade:</label><br>
+        <input type="text" id="expiryDate" name="expiryDate" required><br>
+        <label for="cvv">CVV:</label><br>
+        <input type="number" id="cvv" name="cvv" required><br>
+        <a id="submitLink" href="thx.html">Finalizar compra</a>
+
+        <script>
+            document.getElementById('submitLink').addEventListener('click', function(e) {
+                var form = document.getElementById('paymentForm');
+                if (!form.checkValidity()) {
+                    e.preventDefault();
+                    alert('Por favor, preencha todos os campos antes de finalizar a compra.');
+                } else {
+                    this.href = "thx.html";
+                }
+            });
+        </script>
+    </form></div>
+    </main>
+    <footer>
+        <p style="text-align: center;">©2023</p>
+    <div class="footer">
+        <p><a href="sobrenos.html">Sobre</a></p>  
+        <p><a href="contato.html">Contato</a></p>  
+        <p><a href="#">Ajuda</a></p>
+    </div>
+    </footer>
+</body>
+</html>
+

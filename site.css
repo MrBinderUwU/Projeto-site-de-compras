@@ -7,7 +7,6 @@ body {
 
 #header {
     font-family: 'Black Ops One', cursive;
-    border: 1px solid #000;
     background-image: url("https://cdn.wallpapersafari.com/16/29/014Sls.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -52,19 +51,19 @@ body {
     border: 2px solid #000;
     width: auto;
     height: auto;
-    background-color: #137a7f;
+    background-color: rgb(19,122,127);
     margin-right: auto;
     list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
     margin-top: 0px;
+    padding: 6px;
+    justify-content: center;
 }
 
 #menu a {
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+    padding: 40px;
 }
 
 footer {
@@ -83,3 +82,14 @@ footer {
     color: #fff;
     font-weight: bold;
 }
+
+#thx {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 161px;
+    margin-bottom: 161px;
+    border: solid;
+}
+

@@ -5,13 +5,5 @@
   background-color: white;
   margin-top: 50px;
   margin-bottom: 50px;
-}  
-  .redes-sociais {
-    font-size: 24px;
-  }
-
-  .redes-sociais a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-  }
+  text-align: center;
+} 

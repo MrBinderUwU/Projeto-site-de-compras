@@ -1,0 +1,42 @@
+#categorias{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+
+#categorias2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#cat1 {
+    border-radius: 40%;
+}
+
+#cat2 {
+    border-radius: 40%;
+    margin-left: 70px;
+}
+
+#cat3{
+    border-radius: 40%;
+    margin-left: 70px;
+}
+
+#cat4 {
+    border-radius: 40%;
+}
+
+#cat5{ 
+    border-radius: 40%;
+    margin-left: 70px;
+}
+
+#cat6 {
+    border-radius: 40%;
+    margin-left: 70px;
+}

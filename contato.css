@@ -4,23 +4,9 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #137a7f;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
 main {
-    margin-top: 50px;
+    margin-top: 56px;
+    margin-bottom: 56px;
     text-align: center;
     border: solid 2px black;
     padding: 20px;
@@ -40,18 +26,6 @@ main {
     margin: 10px;
 }
 
-footer {
-    background-color: #54188b;
-    color: rgba(63, 2, 160, 0);
-    padding: 20px;
-    text-align: center;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
 .sobre-container {
     display: flex;
     flex-direction: column;
